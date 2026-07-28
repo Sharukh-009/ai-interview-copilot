@@ -1,0 +1,16 @@
+# Python
+backend/venv/
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# Secrets
+backend/.env
+frontend/.env
+
+# Personal files
+backend/resume.pdf
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/

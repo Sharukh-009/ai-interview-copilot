@@ -1,0 +1,80 @@
+[
+  {
+    "question": "What is the difference between a list and a tuple in Python?",
+    "topic": "Python",
+    "difficulty": "easy",
+    "type": "conceptual"
+  },
+  {
+    "question": "Explain Python decorators with an example.",
+    "topic": "Python",
+    "difficulty": "medium",
+    "type": "conceptual"
+  },
+  {
+    "question": "How does garbage collection work in Python?",
+    "topic": "Python",
+    "difficulty": "hard",
+    "type": "conceptual"
+  },
+  {
+    "question": "What is the Virtual DOM in React?",
+    "topic": "React",
+    "difficulty": "easy",
+    "type": "conceptual"
+  },
+  {
+    "question": "Explain the useEffect hook in React.",
+    "topic": "React",
+    "difficulty": "medium",
+    "type": "conceptual"
+  },
+  {
+    "question": "What is middleware in Express.js?",
+    "topic": "Node.js",
+    "difficulty": "easy",
+    "type": "conceptual"
+  },
+  {
+    "question": "Explain the event loop in Node.js.",
+    "topic": "Node.js",
+    "difficulty": "hard",
+    "type": "conceptual"
+  },
+  {
+    "question": "What is RAG and why is it used in AI applications?",
+    "topic": "RAG",
+    "difficulty": "easy",
+    "type": "conceptual"
+  },
+  {
+    "question": "What are embeddings in RAG?",
+    "topic": "RAG",
+    "difficulty": "medium",
+    "type": "conceptual"
+  },
+  {
+    "question": "What is a vector database?",
+    "topic": "RAG",
+    "difficulty": "medium",
+    "type": "conceptual"
+  },
+  {
+    "question": "What is LangGraph?",
+    "topic": "LangGraph",
+    "difficulty": "easy",
+    "type": "conceptual"
+  },
+  {
+    "question": "What is a StateGraph in LangGraph?",
+    "topic": "LangGraph",
+    "difficulty": "medium",
+    "type": "conceptual"
+  },
+  {
+    "question": "How do conditional edges work in LangGraph?",
+    "topic": "LangGraph",
+    "difficulty": "medium",
+    "type": "conceptual"
+  }
+]

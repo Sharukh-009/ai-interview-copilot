@@ -2,6 +2,8 @@ import { useState } from "react";
 import axios from "axios";
 import "./ResumeUpload.css";
 
+const API_URL = import.meta.env.VITE_API_URL; 
+
 function ResumeUpload({ onUploadSuccess }) {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -21,7 +23,7 @@ function ResumeUpload({ onUploadSuccess }) {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/resume/upload",
+        `${API_URL}/resume/upload`,
         formData,
         {
           headers: {

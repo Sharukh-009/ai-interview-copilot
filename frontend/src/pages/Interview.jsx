@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./Interview.css";
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 function Interview({ profile }) {
   const [sessionId, setSessionId] = useState(null);
 
@@ -38,7 +40,7 @@ function Interview({ profile }) {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:8000/interview/start",
+        `${API_URL}/interview/start`,
         profile
       );
 
@@ -90,7 +92,7 @@ function Interview({ profile }) {
       setSubmittedAnswer(answer);
 
       const response = await axios.post(
-        `http://localhost:8000/interview/${sessionId}/answer`,
+        `${API_URL}/interview/${sessionId}/answer`,
         {
           answer: answer
         }
